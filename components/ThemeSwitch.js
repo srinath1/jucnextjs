@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import DarkTheme from './darkTheme';
+import DarkTheme from './DarkTheme';
 const loadDarkMode=()=>{
     if(typeof localStorage==='undefined'){
         return false
